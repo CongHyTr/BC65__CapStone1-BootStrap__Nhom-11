@@ -4,3 +4,47 @@
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
 }
+
+.title__small{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #7e7d7d;
+    display: block;
+}
+
+.title__big{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+}
+
+/* start gallery */
+.gallery{
+    background-color: #F8F9FA;
+}
+
+
+
+.gallery__logo{
+    display: flex;
+    text-align: center;
+    border-top: 1px solid #eee;
+}
+
+.item__logo img{
+    width: 60%;
+    height: auto;
+}
+/* end gallery */
+
+/* start progress */
+.Progress img{
+    border-radius: 8px;
+}
+/* end progress */
+
+/* start feedback */
+.feedback{
+    background-color: #F8F9FA;
+}
