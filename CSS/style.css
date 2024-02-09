@@ -4,3 +4,66 @@
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
 }
+
+.title__small {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #7e7d7d;
+}
+
+.title__big{
+    font-size: 35px;
+    line-height: 45px;
+    font-weight: 700;
+}
+/* Stat our gallery */
+.gallery{
+    background-color: #F8F9FA;
+}
+
+.gallery .row .zoom{
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.gallery .row a{
+    position: relative;
+}
+
+.gallery .row a img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+}
+
+.gallery .row a img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+.gallery .row{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.137);
+    padding-bottom: 40px;
+}
+
+/* Gallery Logo */
+.gallery__logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo__item img{
+    padding: 0 20px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    width: 80%;
+}

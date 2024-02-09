@@ -12,16 +12,75 @@
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap');
     </style> 
+    <!-- Fancy Box -->
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
     <!-- Main CSS -->
     <link rel="stylesheet" href="./CSS/style.css">
   </head>
   <body>
       <section class="gallery">
         <div class="container">
-          <p>OUR GALLERY</p>
-          <p>Successful projects we've done</p>
-          <div class="gallery__content">
-            
+          <div class="gallery__title text-center mb-5">
+            <p class="title__small mb-1">OUR GALLERY</p>
+            <p class="title__big">Successful projects we've done</p>
+          </div>
+          <div class="row">
+            <div class="col-4">
+              <a href="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/c1.jpg" data-fancybox="gallery" data-caption="Caption #1" class="zoom">
+                <img src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/c1.jpg" />
+              </a> 
+              <div class="overlay__content">
+                <h3>Project 1</h3>
+                <p>Quisque ut lectus, eros et, sed commodo risus.</p>
+              </div>           
+            </div>
+            <div class="col-4">
+              <a href="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/c2.jpg" data-fancybox="gallery" data-caption="Caption #1" class="zoom">
+                <img src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/c2.jpg" />
+              </a>
+            </div>
+            <div class="col-4">
+              <a href="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/c3.jpg" data-fancybox="gallery" data-caption="Caption #1" class="zoom">
+                <img src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/c3.jpg" />
+              </a>
+            </div>
+            <div class="col-4 mt-3">
+              <a href="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/c4.jpg" data-fancybox="gallery" data-caption="Caption #1" class="zoom">
+                <img src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/c4.jpg" />
+              </a>
+            </div>
+            <div class="col-4 mt-3">
+              <a href="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/c5.jpg" data-fancybox="gallery" data-caption="Caption #1" class="zoom">
+                <img src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/c5.jpg" />
+              </a>
+            </div>
+            <div class="col-4 mt-3">
+              <a href="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/c6.jpg" data-fancybox="gallery" data-caption="Caption #1" class="zoom">
+                <img src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/c6.jpg" />
+              </a>
+            </div>
+          </div>
+          <div class="gallery__logo">
+            <div class="logo__item">
+              <img src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/brand1.png" alt="" class="img-fluid">
+            </div>
+            <div class="logo__item">
+              <img src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/brand6.png" alt="" class="img-fluid">
+            </div>
+            <div class="logo__item">
+              <img src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/brand3.png" alt="" class="img-fluid">
+            </div>
+            <div class="logo__item">
+              <img src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/brand4.png" alt="" class="img-fluid">
+            </div>
+            <div class="logo__item">
+              <img src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/images/brand5.png" alt="" class="img-fluid">
+            </div>
+          </div>       
+          
+          </div>
         </div>
       </section>
     <!-- Optional JavaScript -->
@@ -29,6 +88,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- Fancy Box -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <!-- Main JS -->
     <script src="./JS/main.js"></script>
   </body>
 </html>
