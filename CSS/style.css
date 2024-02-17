@@ -17,6 +17,7 @@
     font-size: 35px;
     line-height: 45px;
     font-weight: 700;
+    color: #3F3A64;
 }
 
 /* start gallery */
@@ -29,6 +30,7 @@
 .gallery__logo{
     display: flex;
     text-align: center;
+    justify-content: center;
     border-top: 1px solid #eee;
 }
 
@@ -137,11 +139,112 @@
     opacity: .6;
 }
 
+/* start footer */
+.footer{
+    background-color: #151421;
+}
 
+.footer .footer__header{
+    border-bottom: 1px solid;
+    
+}
 
+.footer__header .footer__title{
+    color: white;
+}
 
+.footer__header .footer__title p{
+    color: #eee;
+}
 
+.footer__form{
+    display: flex;
+    justify-content: center;
+}
 
+.form__icon i{
+    color: #999;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px 0 0 5px;
+    border: 1px solid #ffffff26;
+    padding: 15px;
+}
+
+.form__input input{
+    padding: 10px 0;
+    padding-left: 30px;
+    padding-right: 60px;
+    font-size: 16px;
+    line-height: 28px;
+    border: 1px solid #ffffff26;
+    outline: none;
+    width: 100%;
+    color: #999;
+    background-color: #151421;
+    border-left: none;
+    
+}
+
+.form__btn .btn{
+    padding: 12px 30px;
+    border-radius: 0 0.25rem 0.25rem 0;
+}
+
+/* footer body */
+.title__brand i{
+    color: #009F4D;
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.title__brand .brand__name{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.title__brand p{
+    color: #fff;
+    padding-left: 40px;
+    font-weight: 600;
+    line-height: 10px;
+}
+
+.title__brand .brand__content{
+    font-size: 18px;
+    line-height: 28px;
+    color: #97a1a9;
+    font-weight: 400;
+    padding-left: 0;
+}
+
+.footer__body .app a {
+    margin-right: 15px;
+    display: inline-block;
+    text-align: center;   
+    transition: 0.3s;   
+}
+
+.footer__body .app i{
+    font-size: 16px;
+    color: #97a1a9;
+}
+
+.footer__body .app i:hover {
+    transition: all 0.3s;
+    color: #fff;
+}
+
+.footerBody__title{
+    font-size: 22px;
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+}
 
 /* back to top */
 .backToTop{
